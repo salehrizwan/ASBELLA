@@ -1,0 +1,6 @@
+{
+  "name": "Dolenga Wear",
+  "description": "A minimalist fashion e-commerce landing page clone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
