@@ -1,8 +1,15 @@
+import img1Front from './assets/images/1 cart front.jpeg';
+import img1Back from './assets/images/1 cart back.jpeg';
+import img2Front from './assets/images/2 cart front.jpeg';
+import img2Back from './assets/images/2 cart back.jpeg';
+import img3Front from './assets/images/3 cart front.jpeg';
+import img3Back from './assets/images/3 cart back.jpeg';
+
 export const products = [
   { 
     id: '1', 
-    img: '/1 cart front.jpeg', 
-    images: ['/1 cart front.jpeg', '/1 cart back.jpeg'],
+    img: img1Front, 
+    images: [img1Front, img1Back],
     name: 'BASANT', 
     category: '2-PIECE SET', 
     price: '$120.00',
@@ -16,8 +23,8 @@ export const products = [
   },
   { 
     id: '2', 
-    img: '/2 cart front.jpeg', 
-    images: ['/2 cart front.jpeg', '/2 cart back.jpeg'],
+    img: img2Front, 
+    images: [img2Front, img2Back],
     name: 'MEHWAR', 
     category: 'SUMMER COLLECTION', 
     price: '$145.00',
@@ -27,8 +34,8 @@ export const products = [
   },
   { 
     id: '3', 
-    img: '/3 cart front.jpeg', 
-    images: ['/3 cart front.jpeg', '/3 cart back.jpeg'],
+    img: img3Front, 
+    images: [img3Front, img3Back],
     name: 'BLUSH PINK', 
     category: '2PC LAWN', 
     price: '$180.00',

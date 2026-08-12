@@ -2,6 +2,9 @@ import { Heart } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { products } from '../data';
+import imgHero1 from '../assets/images/1.jpeg';
+import imgCollection2 from '../assets/images/2.jpeg';
+import imgCollection3 from '../assets/images/3.jpeg';
 
 export default function Home() {
   return (
@@ -10,7 +13,7 @@ export default function Home() {
       <section className="relative w-full h-[600px] md:h-[700px] flex overflow-hidden">
         <div className="absolute inset-0 flex justify-center items-end pointer-events-none">
           <img 
-            src="/1.jpeg" 
+            src={imgHero1} 
             alt="Asbella Model" 
             className="w-full h-full object-cover opacity-90 object-top"
           />
@@ -102,14 +105,14 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div className="w-full relative group rounded-2xl overflow-hidden aspect-[4/5] shadow-sm">
             <img 
-              src="/2.jpeg" 
+              src={imgCollection2} 
               alt="Collection Image 1" 
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <div className="w-full relative group rounded-2xl overflow-hidden aspect-[4/5] shadow-sm">
             <img 
-              src="/3.jpeg" 
+              src={imgCollection3} 
               alt="Collection Image 2" 
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
