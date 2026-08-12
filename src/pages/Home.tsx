@@ -2,9 +2,9 @@ import { Heart } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { products } from '../data';
-import imgHero1 from '../assets/images/1.jpeg';
-import imgCollection2 from '../assets/images/2.jpeg';
-import imgCollection3 from '../assets/images/3.jpeg';
+import imgHero1 from '../assets/images/1-hero.jpeg';
+import imgCollection2 from '../assets/images/2-collection.jpeg';
+import imgCollection3 from '../assets/images/3-collection.jpeg';
 
 export default function Home() {
   return (
