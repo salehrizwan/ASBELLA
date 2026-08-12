@@ -1,9 +1,9 @@
-import img1Front from './assets/images/1-cart-front.jpeg';
-import img1Back from './assets/images/1-cart-back.jpeg';
-import img2Front from './assets/images/2-cart-front.jpeg';
-import img2Back from './assets/images/2-cart-back.jpeg';
-import img3Front from './assets/images/3-cart-front.jpeg';
-import img3Back from './assets/images/3-cart-back.jpeg';
+import img1Front from './public/1 cart front.jpeg';
+import img1Back from './public/1 cart back.jpeg';
+import img2Front from './public/2 cart front.jpeg';
+import img2Back from './public/2 cart back.jpeg';
+import img3Front from './public/3 cart front.jpeg';
+import img3Back from './public/3 cart back.jpeg';
 
 export const products = [
   { 
